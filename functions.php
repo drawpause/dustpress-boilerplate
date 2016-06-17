@@ -1,4 +1,7 @@
 <?php
-require_once( "/data/code/vendor/devgeniem/dustpress/dustpress.php" );
-
-dustpress();
+if ( function_exists("dustpress") ) {
+	dustpress();
+}
+else {
+	die("No DustPress found.");
+}
