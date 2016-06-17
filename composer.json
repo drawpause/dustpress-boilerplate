@@ -16,6 +16,6 @@
   "license": "GPL-3.0",
   "minimum-stability": "dev",
   "require": {
-    "devgeniem/dustpress": "dev"
+    "devgeniem/dustpress": "*"
   }
 }
