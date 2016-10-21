@@ -1,0 +1,10 @@
+<!doctype html>
+<html {WP.LanguageAttributes}>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{WP.name}{?WP.title} | {WP.title|h} {/WP.title}</title>
+    {@wphead /}
+</head>
+<body class="{#WP.body_class}{.} {/WP.body_class}">
